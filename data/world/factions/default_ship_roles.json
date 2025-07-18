@@ -1,108 +1,11 @@
 {
 
-	"combatSmallForSmallFleet":{
-	},
-	"combatSmall":{
-	},
-	"combatMedium":{
-		"bedlamskunkworks_chromedusa_Harasser":4,
-	},
-	"combatLarge":{
-	},
-	"combatCapital":{
-	},
 	
-	
-	
-
-	"combatFreighterSmall":{
-	},
-	"combatFreighterMedium":{
-	},
 	"combatFreighterLarge":{
-	},
-	
-	"civilianRandom":{
-	},
-
-
-	"carrierSmall":{
-	},
-	"carrierMedium":{
-	},
-	"carrierLarge":{
-	},
-
-
-	"phaseSmall":{
-	},
-	"phaseMedium":{
-		"harbinger_Strike":10,
-		"fallback":{"phaseSmall":1},
-		"fallback2":{"phaseLarge":0.5},
-	},
-	"phaseLarge":{
-	},
-	"phaseCapital":{
-	},
-
-
-	"freighterSmall":{
-
-	},
-	"freighterMedium":{
-
-	},
-	"freighterLarge":{
- 
-	},
-	
-	"tankerSmall":{
-	},
-	"tankerMedium":{
-	},
-	"tankerLarge":{
-	},
-	
-	"personnelSmall":{
-	},
-	"personnelMedium":{
-	},
-	"personnelLarge":{
-	},
-	
-	"linerSmall":{
-	},
-	"linerMedium":{
-	},
-	"linerLarge":{
-	},
-	
-
-	"tug":{
-	},
-	"crig":{
-	},
-	"utility":{
-	},
-	
-	"orbitalStationLowTech":{
-	},
-	
-	"battlestationLowTech":{
+		"bedlamskunkworks_atlas_custom":10,
+		"bedlamskunkworks_colossus_custom":10,
 	},
 	
 	
-
-
-	
-	"fastAttack":{
-	},
-
-	"escortSmall":{
-	},
-	"escortMedium":{
-		"bedlamskunkworks_chromedusa_Harasser":10,
-	},
 	
 }

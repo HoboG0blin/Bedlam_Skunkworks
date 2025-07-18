@@ -1,0 +1,35 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 1,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_colossus",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_colossus_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "lightdualmg",
+                "WS 013": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 009": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 006": "lightmortar",
+                "WS 007": "lightmortar",
+                "WS 010": "lightmortar",
+                "WS 011": "lightmortar",
+                "WS 000": "lightmortar",
+                "WS 001": "lightmortar",
+                "WS 002": "lightdualmg",
+                "WS 003": "lightdualmg"
+            }
+        }
+    ],
+    "wings": [
+        "warthog_wing"
+    ]
+}
