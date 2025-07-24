@@ -1,0 +1,31 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 23,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_falcon",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_falcon_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "hydra",
+                "WS 006": "taclaser",
+                "WS 007": "taclaser",
+                "WS 010": "taclaser",
+                "WS 011": "taclaser",
+                "WS 008": "pulselaser",
+                "WS 009": "pulselaser",
+                "WS 004": "pulselaser",
+                "WS 005": "pulselaser",
+                "WS 000": "sabot",
+                "WS 001": "sabot",
+                "WS 002": "vulcan",
+                "WS 003": "vulcan"
+            }
+        }
+    ]
+}
