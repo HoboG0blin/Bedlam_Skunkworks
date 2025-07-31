@@ -3,7 +3,7 @@
     "hullId": "bedlamskunkworks_colossus",
     "hullSize": "CRUISER",
     "style": "LOW_TECH",
-    "spriteName": "mods/Bedlam_Skunkworks/graphics/hulls/bedlamskunkworks_colossus.png",
+    "spriteName": "graphics/hulls/bedlamskunkworks_colossus.png",
     "height": 274,
     "width": 136,
     "center": [

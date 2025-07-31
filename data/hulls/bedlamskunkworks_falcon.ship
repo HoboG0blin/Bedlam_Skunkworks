@@ -3,7 +3,7 @@
     "hullId": "bedlamskunkworks_falcon",
     "hullSize": "CRUISER",
     "style": "LOW_TECH",
-    "spriteName": "mods/Bedlam_Skunkworks/graphics/hulls/bedlamskunkworks_falcon.png",
+    "spriteName": "graphics/hulls/bedlamskunkworks_falcon.png",
     "height": 235,
     "width": 160,
     "center": [

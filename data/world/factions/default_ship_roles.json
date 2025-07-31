@@ -2,10 +2,11 @@
 
 	
 	"combatFreighterLarge":{
-		"bedlamskunkworks_atlas_custom":10,
-		"bedlamskunkworks_colossus_custom":10,
+		"bedlamskunkworks_atlas_custom":5,
+		"bedlamskunkworks_colossus_custom":5,
 	},
 	
-	
-	
+	"combatLarge":{
+		"bedlamskunkworks_falcon_custom": 10
+	},
 }
