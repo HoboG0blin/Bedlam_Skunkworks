@@ -13,16 +13,28 @@
     "variantId": "bedlamskunkworks_atlas_custom",
     "weaponGroups": [
         {
-            "autofire": false,
-            "mode": "ALTERNATING",
+            "autofire": true,
+            "mode": "LINKED",
             "weapons": {
-                "WS 002": "devastator",
-                "WS 003": "shredder",
-                "WS 004": "shredder",
-                "WS 005": "shredder",
+                "WS 002": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
                 "WS 006": "shredder",
-                "WS 000": "vulcan",
-                "WS 001": "vulcan"
+                "WS 005": "shredder",
+                "WS 004": "shredder",
+                "WS 003": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 000": "vulcan"
             }
         }
     ],

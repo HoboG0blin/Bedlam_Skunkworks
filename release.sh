@@ -3,15 +3,15 @@
 set -x
 set -euo pipefail
 
-VERSION_MAJOR=$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.major')
-VERSION_MINOR=$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.minor')
-VERSION_PATCH=$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.patch')
+VERSION_MAJOR="$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.major')"
+VERSION_MINOR="$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.minor')"
+VERSION_PATCH="$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.patch')"
 
 OLDVERSION="$VERSION_MAJOR.$VERSION_MINOR.$VERSION_PATCH"
 
 NEWVERSION="${1:-}"
 
-if [[ $NEWVERSION == "" ]]; then
+if [[ "$NEWVERSION" == "" ]]; then
     echo "No version specified"
     exit 1
 fi
@@ -21,11 +21,11 @@ echo "Old version: $OLDVERSION"
 echo "New version: $NEWVERSION"
 
 
-NEWVERSION_MAJOR=$(echo $NEWVERSION | cut -d'.' -f1)
+NEWVERSION_MAJOR="$(echo $NEWVERSION| cut -d'.' -f1)"
 
-NEWVERSION_MINOR=$(echo $NEWVERSION | cut -d'.' -f2)
+NEWVERSION_MINOR="$(echo $NEWVERSION | cut -d'.' -f2)"
 
-NEWVERSION_PATCH=$(echo $NEWVERSION | cut -d'.' -f3)
+NEWVERSION_PATCH="$(echo $NEWVERSION | cut -d'.' -f3)"
 
 sed -i "s|$OLDVERSION|$NEWVERSION|" mod_info.json
 
