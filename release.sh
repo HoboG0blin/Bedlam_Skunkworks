@@ -3,6 +3,11 @@
 set -x
 set -euo pipefail
 
+if ! zenity --question --text="Did you remember to commit first?"; then 
+    zenity --error --text "Commit first you silly goose"
+    exit 1
+fi
+
 VERSION_MAJOR="$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.major')"
 VERSION_MINOR="$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.minor')"
 VERSION_PATCH="$(cat bedlamskunkworks.version | sed 's|^ *#.*||' | jq '. | .modVersion.patch')"
@@ -12,13 +17,17 @@ OLDVERSION="$VERSION_MAJOR.$VERSION_MINOR.$VERSION_PATCH"
 NEWVERSION="${1:-}"
 
 if [[ "$NEWVERSION" == "" ]]; then
-    echo "No version specified"
-    exit 1
+    NEWVERSION=$(zenity --entry --text="New version number?" 2>/dev/null || true)
+    if [[ "$NEWVERSION" == "" ]]; then
+        zenity --error --text "No Version Specified"
+        exit 1
+    fi    
 fi
 
-echo "Old version: $OLDVERSION"
-
-echo "New version: $NEWVERSION"
+zenity --text-info <<EOF
+Old ver: $OLDVERSION
+New ver: $NEWVERSION
+EOF
 
 
 NEWVERSION_MAJOR="$(echo $NEWVERSION| cut -d'.' -f1)"
@@ -62,3 +71,5 @@ git commit -m "v${NEWVERSION}"
 git push origin "$(git branch --show-current)"
 
 gh release create "v${NEWVERSION}" -t "v${NEWVERSION}" --target "$(git branch --show-current)" --generate-notes "$RELEASEZIP"
+
+zenity --info --text "release complete"
