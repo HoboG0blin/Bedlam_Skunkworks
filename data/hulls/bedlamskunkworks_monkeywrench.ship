@@ -1,0 +1,206 @@
+{
+    "hullName": "Monkeywrench Mk. X",
+    "hullId": "bedlamskunkworks_monkeywrench",
+    "hullSize": "CRUISER",
+    "style": "LOW_TECH",
+    "spriteName": "mods/Bedlam_Skunkworks/graphics/hulls/bedlamskunkworks_monkeywrench.png",
+    "height": 220,
+    "width": 204,
+    "center": [
+        102, 110
+    ],
+    "collisionRadius": 131.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 142,
+    "viewOffset": 0,
+    "builtInMods": [
+        "ill_advised",
+        "unstable_injector"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      25,       13
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      25,      -13
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 183,
+            "angle": 0,
+            "locations": [
+                      57,       75
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 183,
+            "angle": 0,
+            "locations": [
+                      57,      -75
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 171,
+            "angle": 38.5,
+            "locations": [
+                     -69,       31
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 221,
+            "angle": 321.5,
+            "locations": [
+                     -69,      -31
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 236,
+            "angle": 0,
+            "locations": [
+                      11,        0
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 242,
+            "angle": 0,
+            "locations": [
+                   -40.5,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -25, 80
+            ],
+            "length": 56,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 62,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -25, -80
+            ],
+            "length": 56,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 62,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -25, 72
+            ],
+            "length": 56,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 62,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -25, -72
+            ],
+            "length": 56,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 62,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -25, 64.5
+            ],
+            "length": 56,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 62,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -25, -64.5
+            ],
+            "length": 56,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 62,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+          -106.5,      -31,
+             -77,    -53.5,
+           -38.5,      -46,
+             -26,      -51,
+           -25.5,      -84,
+        
+           -12.5,    -98.5,
+            34.5,   -102.5,
+             109,    -77.5,
+           108.5,      -57,
+              27,    -55.5,
+        
+              31,    -18.5,
+              31,     18.5,
+              27,     55.5,
+           108.5,       57,
+             109,     77.5,
+        
+            34.5,    102.5,
+           -12.5,     98.5,
+           -25.5,       84,
+             -26,       51,
+           -38.5,       46,
+        
+             -77,     53.5,
+          -106.5,       31
+    # 22 points total.
+    ]
+}

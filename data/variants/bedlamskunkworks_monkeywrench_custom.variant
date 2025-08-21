@@ -1,0 +1,44 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 19,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_monkeywrench",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_monkeywrench_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavyneedler",
+                "WS 004": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "breach",
+                "WS 000": "breach"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightdualmg",
+                "WS 003": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        }
+    ]
+}
