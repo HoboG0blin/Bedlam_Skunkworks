@@ -17,11 +17,16 @@ OLDVERSION="$VERSION_MAJOR.$VERSION_MINOR.$VERSION_PATCH"
 NEWVERSION="${1:-}"
 
 if [[ "$NEWVERSION" == "" ]]; then
-    NEWVERSION=$(zenity --entry --text="New version number?" 2>/dev/null || true)
+    NEWVERSION=$(zenity --entry --title "Create a new release" --text="New version number?" --entry-text="$OLDVERSION" 2>/dev/null || true)
     if [[ "$NEWVERSION" == "" ]]; then
         zenity --error --text "No Version Specified"
         exit 1
     fi    
+fi
+
+if [[ "$NEWVERSION" == "$OLDVERSION" ]]; then 
+    zenity --error --text "New version cannot be the same as the old version!"
+    exit 1
 fi
 
 zenity --text-info <<EOF
