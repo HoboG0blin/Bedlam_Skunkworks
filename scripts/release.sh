@@ -3,6 +3,17 @@
 set -x
 set -euo pipefail
 
+GIT_TOPLEVEL=$(git rev-parse --path-format=relative --show-toplevel)
+
+$GIT_TOPLEVEL/scripts/pathbegone.sh
+
+UNCOMMITTED="$(git status --porcelain)"
+
+if [[ "$UNCOMMITTED" != "" ]]; then
+    zenity --error --text "There are uncommitted changes:\n$UNCOMMITTED"
+    exit 1
+fi
+
 if ! zenity --question --text="Did you remember to commit first?"; then 
     zenity --error --text "Commit first you silly goose"
     exit 1
@@ -57,7 +68,7 @@ echo "tempdir: $TEMPDIR"
 
 cp -r * "$TEMPDIR"
 
-rm -rf "$TEMPDIR"/{release.sh,bin,lib,src}
+rm -rf "$TEMPDIR"/{scripts,bin,lib,src}
 
 TEMPDIRFORZIP=$(mktemp -d)
 
