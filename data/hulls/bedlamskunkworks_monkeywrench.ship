@@ -3,7 +3,7 @@
     "hullId": "bedlamskunkworks_monkeywrench",
     "hullSize": "CRUISER",
     "style": "LOW_TECH",
-    "spriteName": "mods/Bedlam_Skunkworks/graphics/hulls/bedlamskunkworks_monkeywrench.png",
+    "spriteName": "graphics/hulls/bedlamskunkworks_monkeywrench.png",
     "height": 220,
     "width": 204,
     "center": [
