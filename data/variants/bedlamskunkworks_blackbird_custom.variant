@@ -1,0 +1,27 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_blackbird",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_blackbird_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "phasecl",
+                "WS 001": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "dualflak"
+            }
+        }
+    ]
+}
