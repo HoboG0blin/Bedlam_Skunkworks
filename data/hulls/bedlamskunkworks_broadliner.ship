@@ -3,7 +3,7 @@
     "hullId": "bedlamskunkworks_broadliner",
     "hullSize": "CRUISER",
     "style": "LOW_TECH",
-    "spriteName": "mods/Bedlam_Skunkworks/graphics/hulls/phase/bedlamskunkworks_broadliner.png",
+    "spriteName": "graphics/hulls/phase/bedlamskunkworks_broadliner.png",
     "height": 280,
     "width": 168,
     "center": [
