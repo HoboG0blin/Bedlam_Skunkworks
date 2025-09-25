@@ -1,0 +1,40 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_longlash",
+    "hullMods": [
+        "pointdefenseai",
+        "targetingunit"
+    ],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_longlash_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightag",
+                "WS 003": "lightag",
+                "WS 002": "lightag",
+                "WS 000": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightneedler",
+                "WS 004": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightdualmg"
+            }
+        }
+    ]
+}
