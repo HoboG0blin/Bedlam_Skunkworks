@@ -4,8 +4,8 @@
     "hullSize": "CRUISER",
     "style": "LOW_TECH",
     "spriteName": "graphics/hulls/bedlamskunkworks_colossus.png",
-    "height": 274,
-    "width": 136,
+    "height": 246,
+    "width": 137,
     "center": [
         68, 137
     ],
@@ -32,7 +32,7 @@
             "arc": 180,
             "angle": 45,
             "locations": [
-                      91,       38
+                      84,       38
             ]
         },
         {
@@ -43,7 +43,7 @@
             "arc": 180,
             "angle": 315,
             "locations": [
-                      91,      -40
+                      84,      -40
             ]
         },
         {
@@ -54,7 +54,7 @@
             "arc": 180,
             "angle": 0,
             "locations": [
-                      95,       12
+                      88,       12
             ]
         },
         {
@@ -65,7 +65,7 @@
             "arc": 180,
             "angle": 0,
             "locations": [
-                      95,      -14
+                      88,      -14
             ]
         },
         {
@@ -76,7 +76,7 @@
             "arc": 180,
             "angle": 90,
             "locations": [
-                      65,       43
+                      58,       42
             ]
         },
         {
@@ -87,7 +87,7 @@
             "arc": 180,
             "angle": 270,
             "locations": [
-                      65,      -44
+                      58,      -43
             ]
         },
         {
@@ -98,7 +98,7 @@
             "arc": 180,
             "angle": 90,
             "locations": [
-                      41,       36
+                      34,       35
             ]
         },
         {
@@ -109,7 +109,7 @@
             "arc": 180,
             "angle": 270,
             "locations": [
-                      41,      -37
+                      34,      -36
             ]
         },
         {
@@ -120,7 +120,7 @@
             "arc": 180,
             "angle": 90,
             "locations": [
-                      19,       43
+                      12,       42
             ]
         },
         {
@@ -131,7 +131,7 @@
             "arc": 180,
             "angle": 270,
             "locations": [
-                      19,      -44
+                      12,      -43
             ]
         },
         {
@@ -142,7 +142,7 @@
             "arc": 180,
             "angle": 90,
             "locations": [
-                       0,       45
+                      -7,       44
             ]
         },
         {
@@ -153,7 +153,7 @@
             "arc": 180,
             "angle": 270,
             "locations": [
-                       0,      -45
+                      -7,      -44
             ]
         },
         {
@@ -164,7 +164,7 @@
             "arc": 180,
             "angle": 90,
             "locations": [
-                     -24,       53
+                     -31,       53
             ]
         },
         {
@@ -175,7 +175,18 @@
             "arc": 180,
             "angle": 270,
             "locations": [
-                     -24,      -53
+                     -31,      -53
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     122,     -0.5
             ]
         },
         {
@@ -194,100 +205,65 @@
     "engineSlots": [
         {
             "location": [
-                -135.5, -27.5
+                -137, -17
             ],
-            "length": 56,
-            "width": 15,
+            "length": 100,
+            "width": 32,
             "angle": 180,
-            "contrailSize": 62,
+            "contrailSize": 120,
             "style": "LOW_TECH"
         },
         {
             "location": [
-                -135.5, 27.5
+                -137, 17
             ],
-            "length": 56,
-            "width": 15,
+            "length": 100,
+            "width": 32,
             "angle": 180,
-            "contrailSize": 62,
+            "contrailSize": 120,
             "style": "LOW_TECH"
         },
         {
             "location": [
-                -135.5, -35
+                -133, -48.5
             ],
-            "length": 56,
-            "width": 15,
+            "length": 100,
+            "width": 32,
             "angle": 180,
-            "contrailSize": 62,
+            "contrailSize": 120,
             "style": "LOW_TECH"
         },
         {
             "location": [
-                -135.5, 35
+                -133, 48.5
             ],
-            "length": 56,
-            "width": 15,
+            "length": 100,
+            "width": 32,
             "angle": 180,
-            "contrailSize": 62,
-            "style": "LOW_TECH"
-        },
-        {
-            "location": [
-                -135.5, -43.5
-            ],
-            "length": 56,
-            "width": 15,
-            "angle": 180,
-            "contrailSize": 62,
-            "style": "LOW_TECH"
-        },
-        {
-            "location": [
-                -135.5, 43.5
-            ],
-            "length": 56,
-            "width": 15,
-            "angle": 180,
-            "contrailSize": 62,
+            "contrailSize": 120,
             "style": "LOW_TECH"
         }
     ],
     "bounds": [
-            -136,       48,
-            -119,       63,
-             -77,     61.5,
-           -66.5,     53.5,
-             -43,       52,
+          -134.5,    -27.5,
+          -130.5,    -57.5,
+            -117,      -66,
+           -81.5,    -60.5,
+             -56,      -53,
         
-           -20.5,     66.5,
-             -11,     56.5,
-              23,     57.5,
-            30.5,       50,
-            47.5,     50.5,
+             -32,    -65.5,
+              52,    -56.5,
+              99,    -51.5,
+              99,     51.5,
+              52,     56.5,
         
-            65.5,     58.5,
-            78.5,       49,
-              88,     53.5,
-             114,     51.5,
-           134.5,     -0.5,
+             -32,     65.5,
+             -56,       53,
+           -81.5,     60.5,
+            -117,       66,
+          -130.5,     57.5,
         
-             114,    -51.5,
-              88,    -53.5,
-            78.5,      -49,
-            65.5,    -58.5,
-            47.5,    -50.5,
-        
-            30.5,      -50,
-              23,    -57.5,
-             -11,    -56.5,
-           -20.5,    -66.5,
-             -43,      -52,
-        
-           -66.5,    -53.5,
-             -77,    -61.5,
-            -119,      -63,
-            -136,      -49
-    # 29 points total.
+          -134.5,     27.5
+    # 16 points total.
     ]
 }

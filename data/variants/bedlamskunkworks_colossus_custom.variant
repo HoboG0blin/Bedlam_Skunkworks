@@ -35,6 +35,9 @@
             }
         }
     ],
+    "modules": {
+        "WS 014": "module_bedlamskunkworks_colossus_armor_custom"
+    },
     "wings": [
         "warthog_wing"
     ]
