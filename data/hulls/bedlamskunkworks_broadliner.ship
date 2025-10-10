@@ -18,7 +18,8 @@
     "viewOffset": 0,
     "builtInMods": [
         "phasefield",
-        "delicate"
+        "delicate",
+        "armoredweapons"
     ],
     "builtInWeapons": {
         "WS 010": "bedlamskunkworks_broadliner_deco"
