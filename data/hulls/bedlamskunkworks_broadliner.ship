@@ -9,12 +9,12 @@
     "center": [
         84, 140
     ],
-    "collisionRadius": 149.5,
+    "collisionRadius": 149,
     "coversColor": "",
     "shieldCenter": [
         0, 0
     ],
-    "shieldRadius": 152.5,
+    "shieldRadius": 152,
     "viewOffset": 0,
     "builtInMods": [
         "phasefield",

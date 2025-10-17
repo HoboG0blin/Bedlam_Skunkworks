@@ -9,12 +9,12 @@
     "center": [
         67, 116
     ],
-    "collisionRadius": 123.5,
+    "collisionRadius": 123,
     "coversColor": "",
     "shieldCenter": [
         0, 0
     ],
-    "shieldRadius": 125.5,
+    "shieldRadius": 125,
     "viewOffset": 0,
     "builtInMods": [
         "heavyarmor",
@@ -48,23 +48,23 @@
         {
             "id": "WS 002",
             "size": "SMALL",
-            "type": "ENERGY",
+            "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 260,
+            "arc": 90,
             "angle": 45,
             "locations": [
-                    79.5,     28.5
+                    45.5,       24
             ]
         },
         {
             "id": "WS 003",
             "size": "SMALL",
-            "type": "ENERGY",
+            "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 260,
+            "arc": 90,
             "angle": 315,
             "locations": [
-                    79.5,    -28.5
+                    45.5,      -24
             ]
         },
         {
@@ -72,10 +72,10 @@
             "size": "MEDIUM",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 180,
+            "arc": 90,
             "angle": 45,
             "locations": [
-                      31,       43
+                      30,       24
             ]
         },
         {
@@ -83,10 +83,10 @@
             "size": "MEDIUM",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 180,
+            "arc": 90,
             "angle": 315,
             "locations": [
-                      31,      -43
+                      30,      -24
             ]
         },
         {
@@ -94,7 +94,7 @@
             "size": "LARGE",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 180,
+            "arc": 90,
             "angle": 45,
             "locations": [
                      -23,       35
@@ -105,10 +105,54 @@
             "size": "LARGE",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 180,
+            "arc": 90,
             "angle": 315,
             "locations": [
                      -23,      -35
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 90,
+            "angle": 45,
+            "locations": [
+                      14,       24
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 90,
+            "angle": 315,
+            "locations": [
+                      14,      -24
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 90,
+            "angle": 45,
+            "locations": [
+                      -1,       24
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 90,
+            "angle": 315,
+            "locations": [
+                      -1,      -24
             ]
         }
     ],

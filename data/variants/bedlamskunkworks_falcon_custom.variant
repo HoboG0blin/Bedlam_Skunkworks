@@ -1,6 +1,6 @@
 {
     "displayName": "Custom",
-    "fluxCapacitors": 6,
+    "fluxCapacitors": 3,
     "fluxVents": 30,
     "goalVariant": false,
     "hullId": "bedlamskunkworks_falcon",
@@ -14,32 +14,30 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 003": "taclaser",
-                "WS 002": "taclaser"
+                "WS 011": "lightneedler",
+                "WS 009": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 003": "lightneedler",
+                "WS 010": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 008": "lightneedler",
+                "WS 002": "lightneedler"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 005": "heavyneedler",
-                "WS 004": "heavyneedler"
+                "WS 007": "hephag",
+                "WS 006": "hephag"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 007": "mjolnir",
-                "WS 006": "mjolnir"
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS 001": "vulcan",
-                "WS 000": "vulcan"
+                "WS 000": "vulcan",
+                "WS 001": "vulcan"
             }
         }
     ]
