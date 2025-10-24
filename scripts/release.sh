@@ -68,7 +68,7 @@ echo "tempdir: $TEMPDIR"
 
 cp -r * "$TEMPDIR"
 
-rm -rf "$TEMPDIR"/{scripts,bin,lib,src}
+rm -rf "$TEMPDIR"/{scripts,bin,lib,src,graphics/xcf}
 
 TEMPDIRFORZIP=$(mktemp -d)
 
