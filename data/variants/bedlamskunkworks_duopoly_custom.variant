@@ -1,0 +1,37 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 8,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_duopoly",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_duopoly_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 000": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 003": "vulcan",
+                "WS 004": "vulcan",
+                "WS 005": "vulcan",
+                "WS 006": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing",
+        "hoplon_wing",
+        "hoplon_wing"
+    ]
+}
