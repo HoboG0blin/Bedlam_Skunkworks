@@ -10,10 +10,15 @@
 		"bedlamskunkworks_falcon_custom": 3,
 		"bedlamskunkworks_monkeywrench_custom": 6,
 		"bedlamskunkworks_broadliner_custom": 1,
+		"bedlamskunkworks_imperator_custom": 3,
 	},
 
 	"combatSmall":{
 		"bedlamskunkworks_blackbird_custom":5,
 		"bedlamskunkworks_longlash_custom":5,
+	},
+
+	"carrierMedium":{
+		"bedlamskunkworks_duopoly_custom":5,
 	},
 }

@@ -1,0 +1,46 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 26,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "bedlamskunkworks_imperator",
+    "hullMods": [
+        "missleracks"
+    ],
+    "quality": 0.0,
+    "variantId": "bedlamskunkworks_imperator_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "bedlamskunkworks_hammertube",
+                "WS 006": "bedlamskunkworks_hammertube"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "hveldriver",
+                "WS 004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 000": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vulcan",
+                "WS 002": "vulcan"
+            }
+        }
+    ]
+}

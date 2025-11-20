@@ -1,3 +1,5 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 Blackbird Wing,bedlamskunkworks_blackbird_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,69
 Broadliner Top,bedlamskunkworks_broadliner_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,67
+ Slam-bang Hammer Tube,bedlamskunkworks_hammertube,0,,75,1200,,1500,,30,,,1,0.1,1,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,500,40,4,350,,,SYSTEM,"strike5, rocket1",,Bedlam Skunkworks,,Torpedo,Fast,None,,,,,,,TRUE,9.9
+Imperator Top,bedlamskunkworks_imperator_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4254

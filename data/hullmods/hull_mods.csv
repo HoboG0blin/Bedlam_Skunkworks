@@ -1,0 +1,2 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+“Free Range” Torpedo Gantries,loosetorpedoes,,,Bedlam Skunkworks,,,,,TRUE,,0,0,0,0,data.hullmods.loosetorpedoes,"The cargo holds of this ship are filled to the brim with loose torpedoes, which the crew loving loads and fires by hand. Unfortunately any sudden impacts leads them to jostle around unpredictably, incrasing hull damage taken by 20%.",,,graphics/hullmods/vast_bulk.png
